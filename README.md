@@ -33,6 +33,10 @@ In the `src/main/scala` folder you will find:
 - HelloWorldWithSpark.scala: This adds the Spark dependency and tests its ability to create a small dataframe and display the output
 - HelloWorldWithSparkDelta.scala: This adds delta framework and confiures Spark to use it
 
+Two additional scripts added to help demonstrate performance at scale
+- DataGen.scala: Simple crude generate to attempt to make some data at scale
+- DataMerge.scala: Simple script to generate a sequential update to be merged into datagen
+
 ## Getting Started
 
 ### Building
